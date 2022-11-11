@@ -1,0 +1,24 @@
+.buttons__wrapper{
+    display: flex;
+    max-width: 400px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.button__item{
+    padding: 5px 20px;
+   
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+    border: 1px solid grey;
+    box-shadow: 5px 5px;
+    cursor: pointer;
+}
+
+.button__item:hover,.button__item:focus{
+  background-color: white;
+}
+
